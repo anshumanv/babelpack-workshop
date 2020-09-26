@@ -1,7 +1,9 @@
-const buttonElement = document.querySelector("#button")
-const counterElement = document.querySelector("#count")
+import React from "react"
+import ReactDOM from "react-dom"
 
 
-buttonElement.addEventListener("click", function(e) {
-  counterElement.innerText = Number(counterElement.innerText) + 1
-})
+const App = () => {
+  return <div>hey</div>
+}
+
+export default App
